@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none
+}
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+</style>
+
+
+.josefin-sans-<uniquifier> {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+header{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    justify-content: space-around;
+}
+.row {
+    display: flex;
+    column-gap: 50px;
+    width: 30%
+    justify-content: space-between;
+    padding: 30px 300px
+    
+    
+}
+
+.nav_lists{
+    display: flex;
+    gap: 5px;
+    width: 50%;
+    justify-content:space-around;
+    font-family: Edu AU VIC WA NT Pre", cursive;;
+}
+
+.home{
+    color: #FB2E86;
+}
+
+.search form {
+    display: flex;
+    border: 2px solid  #E7E6EF;
+
+}
+
+}
+.search input{
+    padding: 5px 20px;
+    
+}
+
+.search button{
+    border: 0;
+    padding: 4px;
+    background-color: #FB2E86;
+}
+
+.one{
+    padding: 0;
+   background-color: #F2F0FF;
+    display: flex;
+    
+}
+.best{
+    font-size: 13px;
+    color: #FB2E86;
+    font-family: Edu AU VIC WA NT Pre", cursive;
+}
+.shop_button{
+    width:fit-content;
+    background-color: #FB2E86;
+    padding: 4px 10px;
+    color: #E7E6EF;
+    font-family: Edu AU VIC WA NT Pre", cursive;;
+    
+
+}
+.title{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    width: 30%;
+    flex-grow: 1;
+    max-width: 60%;
+    
+}
+.parg{
+    font-size: 12px;
+    font-family: Edu AU VIC WA NT Pre", cursive;;
+
+}
+.maintitle{
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 1.5%;
+    font-weight: 100px;
+}
+.lamp{
+    position: relative;
+    bottom: 30px;
+animation-name: slidefromleft 2s;}
+@keyframes slidefromleft {
+    from{wdth:400px)}
+    to{width: 800px;}
+}
+
+
+.two{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+    justify-content: center;
+    align-items: center;
+}
+.titletwo{
+    color: #1A0B5B;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+.chairs{
+    display: flex;
+    column-gap: 20px;
+    flex-grow: 4;
+    max-width: 70%;
+}
+.ch{
+    background-color:#0000001A
+        border: #FFFFFF ;
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    padding: 25px 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+.ch:hover { background-color: #2F1AC4;
+}
+
+.chh2{
+    color: #FB2E86;
+    font-size: 10px;
+    font-family: Edu AU VIC WA NT Pre", cursive;; 
+}
+.chp{
+    color: #151875;
+    font-size: 10px;
+    font-family: Edu AU VIC WA NT Pre", cursive;;
+
+}
+.chspan{
+    color: #151875;
+    font-size: 10px;
+    font-family: Edu AU VIC WA NT Pre", cursive;;   
+}
+.chh2{
+    
+}
+
+.chimg{
+    background-color: #F6F7FB;
+    height: 90px;
+    width: 100%;
+}
+.chinf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    width:90px;
+    margin-top: 10px;
+     
+}
+.view-details{
+    position:absolute;
+    background-color: #08D15F;
+    font-size:7px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #F2F0FF;
+    padding: 5px 5px;
+}
